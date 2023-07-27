@@ -20,13 +20,18 @@
       <nav id="header-nav" class="navbar navbar-default">
         <div class="container">
           <div class="navbar-header">
-            <a href="index.html" class="pull-left visible-md visible-lg">
+            <a href="index.html" class="pull-left visible-sm visible-xs visible-md visible-lg">
               <div id="logo-img">
-                <a href="index.html"><h1><img src="images/PhotoRoom_20230105_173615.jpg" alt="L.O.V.E. logo" style="width: 250px; height: 150px"></h1></a>
+                <img src="images/PhotoRoom_20230105_173615.jpg" alt="logo" style="width: 250px; height: 150px">
               </div>
             </a>
-
-
+            <!-- <div class="navbar-brand">
+              <a id="logo-imge" href="index.html"><h1>
+              </h1></a>
+              <p>
+                <span>Living Our Visions Everyday</span>
+              </p>
+            </div> -->
 
             <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
@@ -38,24 +43,21 @@
 
           <div id="collapsable-nav" class="collapse navbar-collapse">
              <ul id="nav-list" class="nav navbar-nav navbar-right">
-              <li class="visible-xs active">
+              <li class="menuItem visible-xs active">
                 <a href="index.html">
-                  <span class=""></span> Home</a>
+                  <span class="glyphicon glyphicon-home"></span> Home</a>
               </li>
-              <li>
+              <li class="menuItem">
                 <a href="catalogue.html">
-                  <span class=""></span><br class="hidden-xs">Catalogue</a>
+                  <span class=""></span><br class="hidden-xs"> Catalogue</a>
               </li>
-              <li>
+              <li class="menuItem">
                 <a href="brandMedia.html">
-                  <span class=""></span><br class="hidden-xs">Media</a>
+                  <span class=""></span><br class="hidden-xs"> Media</a>
               </li>
-              <li>
+              <li class="menuItem">
                 <a href="about.html">
-                  <span class=""></span><br class="hidden-xs"> About Us</a>
-              </li>
-              <li id="phone" class="hidden-xs">
-
+                  <span class=""></span><br class="hidden-xs"> About</a>
               </li>
             </ul><!-- #nav-list -->
           </div><!-- .collapse .navbar-collapse -->
@@ -63,15 +65,41 @@
       </nav><!-- #header-nav -->
     </header>
 
-    <div class="jumbotron">
-      <img src="images/jumbotron_768.jpg" alt="Picture of sale promotion" class="img-responsive visible-xs">
+    <div class="ArtHead">
+    <h2>Articles</h2>
     </div>
 
-    <!-- <div id="home-tiles" class="row">
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <a href="#"><div id="menu-tile"><span>30% L.O.V.E. Sale</span></div></a>
+    <!-- <section class="row">
+      <section>
+        LOVE Meets The Yanos
+
+        <img src="images/FFC3E5C7-F833-4EA7-84A7-4EC504567C8A.JPEG" alt="" style="width: 150px; height: 150px;">
+      </section>
+
+
+    </section> -->
+
+    <div id="newsBlock" class="container">
+      <div class="row">
+        <section id="newsHead" class="col-md-6 col-sm-6">
+          <a href="yanos.html"><h4>Love Meets the Yanos</h4></a>
+        </section>
+        <section class="col-md-6 col-sm-6">
+         <img src="images/IMG_3314.JPG" alt="" style="width: 150px; height: 150px;">
+        </section>
       </div>
-    </div><!-- End of #home-tiles --> -->
+    </div>
+
+    <div id="newsBlock" class="container">
+      <div class="row">
+        <section id="newsHead" class="col-md-6 col-sm-6">
+          <a href="#"><h4>Love Invades CottonFest</h4></a>
+        </section>
+        <section class="col-md-6 col-sm-6">
+         <img src="images/FB_IMG_1684749089528.JPG" alt="" style="width: 150px; height: 150px;">
+        </section>
+      </div>
+    </div>
 
     <footer class="panel-footer">
       <div class="container">
@@ -82,10 +110,10 @@
           <section id="hours" class="col-sm-4">
             <span>Contact Us</span><br>
             <a href="mailto: garlicgreenjunior@icloud.com">
-              <img id="phone" src="images/emailIcon.png" alt="email icon" style="width: 160px; height: 80px;">
+              <img src="images/emailIcon.png" alt="email icon" style="width: 160px; height: 80px;">
             </a> <br>
-            <a href="tel:062-890-6020">
-              <span><img src="images/phoneIcon.png" alt="Whatsapp Chat" style="width: 80px; height: 80px;"></span></a><br>
+            <a href="https://api.whatsapp.com/send?phone=27628906020"><br>
+              <img src="images/phoneIcon.png" alt="Whatsapp Chat" style="width: 80px; height: 80px;">
             </a>
             <hr class="visible-xs">
           </section>
@@ -100,8 +128,9 @@
       </div>
     </footer>
 
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
     <script src="js/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"> </script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

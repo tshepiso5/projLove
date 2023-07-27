@@ -4,9 +4,19 @@ body {
   background-color: white;
   font-family: 'PacFont', sans-serif;
 }
-
+.jumText{
+  font-family: 'Press Start 2P';
+}
 .pageContent {
   font-family: 'PacFont', ;
+}
+#aBody{
+  font-family: 'Press Start 2P';
+}
+.frontArt{
+  font-family: 'Press Start 2P','Bungee Spice';
+  font-size: 1.5em;
+  /*font-weight: bold;*/
 }
 
 /* NEWS HEADER */
@@ -14,7 +24,7 @@ body {
 text-align: center;
 margin-top: 50px;
 margin-bottom: 50px;
-text-decoration: underline;
+font-family: 'PacFont';
 }
 /** HEADER **/
 #header-nav {
@@ -57,11 +67,16 @@ text-decoration: underline;
   vertical-align: middle;
 }
 
+.itemDetails{
+  font-family: 'Press Start 2P';
+  text-align: center;
+}
+
 #nav-list {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #951C49;
+  color: black;
   text-align: center;
 }
 #nav-list a:hover {
@@ -102,6 +117,8 @@ text-decoration: underline;
   padding-bottom: 30px;
   background-color: #222;
   border-top: 0;
+  font-family: 'VT323';
+  font-size: 2em;
 }
 .panel-footer div.row {
   margin-bottom: 35px;
@@ -145,7 +162,49 @@ text-decoration: underline;
   border: 2px solid #3F0C1F;
 }
 
+#newsHead{
+  font-family: 'Press Start 2P';
+  color: #020202;
+  text-decoration: underline;
+
+}
+#newsBlock{
+  margin-bottom: 50px;
+}
 #menu-tile, #specials-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+
+#snaps-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#music-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#videos-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+}
+#news-tile {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
@@ -161,7 +220,7 @@ text-decoration: underline;
   border: 2px solid #3F0C1F;
   overflow: hidden;
 }
-#menu-tile, #topz-tile, #map-tile {
+#hats-tile, #topz-tile, #map-tile {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
@@ -169,7 +228,67 @@ text-decoration: underline;
   border: 2px solid #3F0C1F;
   overflow: hidden;
 }
-#skopi-tile, #specials-tile, #map-tile {
+#emailPlace{
+  margin-bottom: 50px;
+}
+#skopi-tile {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+}
+#skopi1-tile {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+}
+#skopi2-tile {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+}
+#skopi3-tile {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+
+}
+#pic-tile {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  /* border: 2px solid #3F0C1F; */
+  overflow: hidden;
+}
+#tops-tile {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+}
+#tops1-tile {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+}
+#tops2-tile, #map-tile {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+}
+#tops3-tile, #map-tile {
   height: 500px;
   width: 100%;
   margin-bottom: 15px;
@@ -177,7 +296,79 @@ text-decoration: underline;
   border: 2px solid #3F0C1F;
   overflow: hidden;
 }
-#skopi1-tile, #specials-tile, #map-tile {
+#myImg, #myImg1, #myImg2, #myImg3, #myImg4, #myImg5, #myImg6, #myImg7, #myImg8, #myImg9, #myImg10, #myImg11, #myImg13, #myImg14, #myImg15, #myImg16, #myImg17, #myImg18, #myImg19, #myImg20{
+  transition: 0.3s;
+}
+
+#myImg:hover, #myImg1:hover, #myImg2:hover, #myImg3:hover, #myImg4:hover, #myImg5:hover, #myImg6:hover, #myImg7:hover. #myImg8:hover, #myImg9:hover, #myImg10:hover, #myImg11:hover{
+  opacity: 0.7;
+}
+
+.modal{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgb(0,0,0.9)
+}
+
+.modal-content{
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+#caption, #caption1, #caption2, #caption3{
+  margin: auto;
+  display: block;
+  width: 80%
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+.modal-content, #caption, #caption1, #caption2, #caption3{
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from { transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover, .close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%
+  }
+}
+
+#tops3-tile, #map-tile {
   height: 500px;
   width: 100%;
   margin-bottom: 15px;
@@ -185,84 +376,18 @@ text-decoration: underline;
   border: 2px solid #3F0C1F;
   overflow: hidden;
 }
-#skopi2-tile, #specials-tile, #map-tile {
+#pic2-tile {
   height: 500px;
   width: 100%;
   margin-bottom: 15px;
   position: relative;
-  border: 2px solid #3F0C1F;
   overflow: hidden;
 }
-#skopi3-tile, #specials-tile, #map-tile {
+#pic3-tile {
   height: 500px;
   width: 100%;
   margin-bottom: 15px;
   position: relative;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-}
-#pic-tile, #specials-tile, #map-tile {
-  height: 500px;
-  width: 100%;
-  margin-bottom: 15px;
-  position: relative;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-}
-#pic-tile, #tops-tile, #map-tile {
-  height: 500px;
-  width: 100%;
-  margin-bottom: 15px;
-  position: relative;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-}
-#pic-tile, #tops1-tile, #map-tile {
-  height: 500px;
-  width: 100%;
-  margin-bottom: 15px;
-  position: relative;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-}
-#pic-tile, #tops2-tile, #map-tile {
-  height: 500px;
-  width: 100%;
-  margin-bottom: 15px;
-  position: relative;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-}
-#pic-tile, #tops3-tile, #map-tile {
-  height: 500px;
-  width: 100%;
-  margin-bottom: 15px;
-  position: relative;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-}
-#pic-tile, #tops3-tile, #map-tile {
-  height: 500px;
-  width: 100%;
-  margin-bottom: 15px;
-  position: relative;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-}
-#pic2-tile, #specials-tile, #map-tile {
-  height: 500px;
-  width: 100%;
-  margin-bottom: 15px;
-  position: relative;
-  border: 2px solid #3F0C1F;
-  overflow: hidden;
-}
-#pic3-tile, #specials-tile, #map-tile {
-  height: 500px;
-  width: 100%;
-  margin-bottom: 15px;
-  position: relative;
-  border: 2px solid #3F0C1F;
   overflow: hidden;
 }
 #menu-tile, #specialsTile, #map-tile {
@@ -283,6 +408,26 @@ text-decoration: underline;
   background: url('../images/IMG_2486.jpg') no-repeat;
   background-position: center;
 }
+#hats-tile {
+  background: url('../images/FB_IMG_1684749015957.jpg') no-repeat;
+  background-position: center;
+}
+#snaps-tile {
+  background: url('../images/IMG_2369.jpeg') no-repeat;
+  background-position: center;
+}
+#music-tile {
+  background: url('../images/IMG_2094.jpeg') no-repeat;
+  background-position: center;
+}
+#videos-tile {
+  background: url('../images/IMG-20230704-WA0001.jpg') no-repeat;
+  background-position: center;
+}
+#news-tile {
+  background: url('../images/IMG_1995.jpeg') no-repeat;
+  background-position: center;
+}
 #skopi-tile {
   background: url('../images/IMG_2486.jpg') no-repeat;
   background-position: center;
@@ -300,15 +445,15 @@ text-decoration: underline;
   background-position: center;
 }
 #pic-tile {
-  background: url('../images/DSCF3668.jpeg') no-repeat;
+  /* background: url('../images/DSCF3668.jpeg') no-repeat; */
   background-position: center;
 }
 #pic2-tile {
-  background: url('../images/DSCF3695-2.jpeg') no-repeat;
+  /* background: url('../images/DSCF3695-2.jpeg') no-repeat; */
   background-position: center;
 }
 #pic3-tile {
-  background: url('../images/DSCF3733-2.jpeg') no-repeat;
+  /* background: url('../images/DSCF3733-2.jpeg') no-repeat; */
   background-position: center;
 }
 #specialsTile {
@@ -324,7 +469,7 @@ text-decoration: underline;
   background-position: center;
 }
 #tops-tile {
-  background: url('../images/IMG_3314.jpg') no-repeat;
+  background: url('../images/0F32BE66-8FE7-40CD-817E-2B0E46058853.jpg') no-repeat;
   background-position: center;
 }
 #tops1-tile {
@@ -332,7 +477,7 @@ text-decoration: underline;
   background-position: center;
 }
 #tops2-tile {
-  background: url('../images/IMG_4385.jpg') no-repeat;
+  background: url('../images/IMG_3285.jpg') no-repeat;
   background-position: center;
 }
 #tops3-tile {
@@ -344,6 +489,54 @@ text-decoration: underline;
   background-position: center;
 }
 #menu-tile span, #specials-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+#news-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+#snaps-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+#music-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+#videos-tile span {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -367,7 +560,7 @@ text-decoration: underline;
   color: #fff;
   opacity: .8;
 }
-#menu-tile span, #topz-tile span, #map-tile span {
+#hats-tile span, #topz-tile span, #map-tile span {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -567,11 +760,15 @@ h3.menu-item-title {
     width: 360px;
     margin: 0 auto 15px;
   }
+  #news-tile, #snaps-tile, #music-tile, #videos-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
   #menu-tile, #medias-tile {
     width: 360px;
     margin: 0 auto 15px;
   }
-  #menu-tile, #topz-tile {
+  #hats-tile, #topz-tile {
     width: 360px;
     margin: 0 auto 15px;
   }
@@ -579,7 +776,7 @@ h3.menu-item-title {
     width: 360px;
     margin: 0 auto 15px;
   }
-  #pic-tile, #specialsTile {
+  #pic-tile, #pic2-tile, #pic3-tile, #pic3-tile #specialsTile {
     width: 360px;
     margin: 0 auto 15px;
   }
