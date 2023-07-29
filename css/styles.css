@@ -7,11 +7,11 @@ body {
 @font-face {
   font-family: PressStart2P;
   src: url('../fonts/Press_Start_2P/PressStart2P-Regular.ttf');
-  
+
 }
 
-.medHead{
-  font-family: PressStart2P;
+.medHead > h3{
+  font-family: PressStart2P,fantasy ;
 }
 .artBody {
   font-family: 'Press Start 2P';
