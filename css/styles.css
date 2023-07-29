@@ -13,8 +13,9 @@ body {
 .medHead > h3{
   font-family: PressStart2P,fantasy ;
 }
-.artBody {
-  font-family: 'Press Start 2P';
+
+.artBody p{
+  font-family: PressStart2P;
 }
 #footBrand {
   font-family: 'Press Start 2P', 'Bungee Spice';
