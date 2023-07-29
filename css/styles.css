@@ -4,6 +4,12 @@ body {
   background-color: white;
   font-family: 'PacFont', sans-serif;
 }
+.artBody {
+  font-family: 'Press Start 2P';
+}
+#footBrand {
+  font-family: 'Press Start 2P', 'Bungee Spice';
+}
 .jumText{
   font-family: 'Press Start 2P';
 }
@@ -26,6 +32,7 @@ margin-top: 50px;
 margin-bottom: 50px;
 font-family: 'PacFont';
 }
+
 /** HEADER **/
 #header-nav {
   background-color: white;
@@ -133,7 +140,7 @@ font-family: 'PacFont';
 }
 #address p {
   color: #557c3e;
-  font-size: .8em;
+ 7  font-size: .8em;
   line-height: 1.8;
 }
 #testimonials {
@@ -425,7 +432,7 @@ font-family: 'PacFont';
   background-position: center;
 }
 #news-tile {
-  background: url('../images/IMG_1995.jpeg') no-repeat;
+  background: url('../images/IMG_1995.JPEG') no-repeat;
   background-position: center;
 }
 #skopi-tile {
@@ -737,6 +744,14 @@ h3.menu-item-title {
     text-transform: uppercase;
   }
   /* End Header */
+
+  /*about pictures*/
+  @media (max-width: 766px) {
+    #storyImg{
+      width: 150px;
+      height: 150px;
+    }
+  }
 
   /* Footer */
   .panel-footer section {
