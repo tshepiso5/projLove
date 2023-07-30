@@ -15,9 +15,7 @@ body {
   src: url('../fonts/pacfont/PAC-FONT.TTF');
 }
 
-.medHead > h3{
-  font-family: PacFont,fantasy ;
-}
+
 
 .artBody p{
   font-family: PressStart2P;
@@ -27,15 +25,11 @@ body {
 #footBrand {
   font-family: 'Press Start 2P', 'Bungee Spice';
 }
-.jumText{
-  font-family: 'Press Start 2P';
-}
+
 .pageContent {
   font-family: 'PacFont', ;
 }
-#aBody{
-  font-family: 'Press Start 2P';
-}
+
 .frontArt{
   font-family: 'Press Start 2P','Bungee Spice';
   font-size: 1.5em;
@@ -110,7 +104,7 @@ font-family: 'PacFont';
 }
 #address p {
   color: #557c3e;
- 7  font-size: .8em;
+  font-size: .8em;
   line-height: 1.8;
 }
 #testimonials {
@@ -295,6 +289,13 @@ font-family: 'PacFont';
 
 /* END HOME PAGE */
 /*MEDIA PAGE*/
+.jumText{
+  font-family: PressStart2P;
+}
+.medHead > h3{
+  font-family: PacFont,fantasy;
+  text-align: center;
+}
 #snaps-tile, #news-tile, #videos-tile, #music-tile {
   height: 250px;
   width: 100%;
@@ -304,7 +305,7 @@ font-family: 'PacFont';
   overflow: hidden;
 }
 #snaps-tile {
-  background: url('../images/IMG_2369.jpeg') no-repeat;
+  background: url('../images/IMG_2369.JPEG') no-repeat;
   background-position: center;
 }
 #music-tile {
@@ -312,7 +313,7 @@ font-family: 'PacFont';
   background-position: center;
 }
 #videos-tile {
-  background: url('../images/IMG-20230704-WA0001.JPG') no-repeat;
+  background: url('../images/IMG-20230704-WA0004.JPG') no-repeat;
   background-position: center;
 }
 #news-tile {
@@ -332,7 +333,9 @@ font-family: 'PacFont';
 
 }
 
-
+#aBody{
+  font-family: PressStart2P;
+}
 /*END ABOUT PAGE*/
 #hats-tile, #topz-tile, #map-tile {
   height: 250px;
