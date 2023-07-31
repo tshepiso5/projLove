@@ -22,9 +22,7 @@ body {
   margin-bottom: 70px;
 
 }
-#footBrand {
-  font-family: 'Press Start 2P', 'Bungee Spice';
-}
+
 
 .pageContent {
   font-family: 'PacFont', ;
@@ -52,7 +50,7 @@ font-family: 'PacFont';
 }
 
 .itemDetails{
-  font-family: 'Press Start 2P';
+  font-family: PressStart2P;
   text-align: center;
 }
 
@@ -88,7 +86,7 @@ font-family: 'PacFont';
   background-color: #222;
   border-top: 0;
   font-family: 'VT323';
-  font-size: 2em;
+  font-size: 1em;
 }
 .panel-footer div.row {
   margin-bottom: 35px;
@@ -97,6 +95,8 @@ font-family: 'PacFont';
   font-family: PressStart2P;
   line-height: 2;
   color: white;
+  padding: 10px;
+
 }
 #hours > span, #address > span {
   font-size: 1.3em;
