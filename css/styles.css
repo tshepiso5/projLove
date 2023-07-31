@@ -125,7 +125,7 @@ font-family: 'PacFont';
 
 /*MEDIA PAGE*/
 #newsHead{
-  font-family: 'Press Start 2P';
+  font-family: PressStart2P;
   color: #020202;
   text-decoration: underline;
 
@@ -313,7 +313,7 @@ font-family: 'PacFont';
   background-position: center;
 }
 #videos-tile {
-  background: url('../images/IMG_2133.JPEG') no-repeat;
+  background: url('../images/IMG_2369.JPEG') no-repeat;
   background-position: center;
 }
 #news-tile {
