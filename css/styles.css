@@ -3,6 +3,7 @@ body {
   color: black;
   background-color: white;
   font-family: 'PacFont', sans-serif;
+  position: absolute;
 }
 @font-face {
   font-family: PressStart2P;
@@ -23,7 +24,15 @@ body {
 
 }
 
+#whatIcon {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  right: 30px;
+  bottom: 940px;
+  padding: 24px;
 
+}
 .pageContent {
   font-family: 'PacFont', ;
 }
@@ -597,7 +606,17 @@ font-family: 'PacFont';
 
 /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 @media (max-width: 479px) {
-  /* Header */
+  body{
+    position: absolute;
+  }
+  /* WhatsApp ICON */
+  #whatIcon{
+    /* width: 100px;
+    height: 100px; */
+    right: 30px;
+    bottom: 3000px;
+    padding: 24px;
+  }
 
   /* End Header */
 
